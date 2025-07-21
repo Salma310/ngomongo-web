@@ -33,7 +33,7 @@
       content="Tailwind CSS Company Landing Page Template by Ranyeh."
       property="og:description"
     />
-    <meta content="./assets/img/inazuma-cover.png" property="og:image" />
+    <meta content="./assets/img/ngomongo-logo.jpg" property="og:image" />
     <meta content="https://ranyeh24.github.io/inazuma-tailwind" property="og:url" />
     <meta content="website" property="og:type" />
 
@@ -44,8 +44,10 @@
     />
     <meta name="theme-color" content="#3d63dd" />
 
+    <script src="https://unpkg.com/lucide@latest"></script>
+
     <!-- Page title -->
-    <title>Inazuma | Tailwind CSS Company Landing Page</title>
+    <title>Ngomongo Website</title>
 
     <!-- Canonical -->
     <link rel="canonical" href="https://ranyeh24.github.io/inazuma-tailwind" />
@@ -203,7 +205,7 @@
                       href="#services"
                       class="ic-page-scroll mx-8 flex py-2 text-base font-medium text-body-light-12 group-hover:text-primary dark:text-body-dark-12 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-primary-color lg:dark:text-primary-color lg:group-hover:text-primary-color lg:group-hover:opacity-70"
                       role="menuitem"
-                      >Services</a
+                      >Feature</a
                     >
                   </li>
 
@@ -279,15 +281,13 @@
                 <h1
                   class="mb-6 text-3xl font-bold leading-snug text-primary-color sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-tight"
                 >
-                  Tailwind CSS Company Landing Page by Ranyeh
+                  Secure End-to-End Encrypted Communication Platform
                 </h1>
 
                 <p
                   class="mx-auto mb-9 max-w-[600px] text-base text-primary-color sm:text-lg sm:leading-normal"
                 >
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Possimus qui impedit veniam, nesciunt nostrum vel repellat
-                  reprehenderit dignissimos harum, iste ex sit illo?
+                 Welcome to ngomongo.xyz, a state-of-the-art communication platform powered by the robust and transparent Matrix protocol. We deliver military-grade security with seamless end-to-end encryption for all your messages, voice conversations, and video interactions across every device you own.
                 </p>
 
                 <ul
@@ -307,12 +307,12 @@
                       href="javascript:boid(0)"
                       class="video-popup flex items-center gap-4 rounded-md bg-primary-color/[0.15] px-5 py-3 text-base font-medium text-primary-color hover:bg-primary-color hover:text-primary md:px-7 md:py-[14px]"
                       role="button"
-                      ><i class="lni lni-play text-lg/none"></i> Watch Intro</a
+                      ><i class="lni lni-download text-lg/none"></i> Download Now</a
                     >
                   </li>
                 </ul>
 
-                <div>
+                <!-- <div>
                   <p class="mb-4 text-center text-primary-color">Powered by</p>
 
                   <div
@@ -338,14 +338,14 @@
                       </svg>
                     </a>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
             <div class="w-full px-5">
               <div class="scroll-revealed relative z-10 mx-auto max-w-[845px]">
                 <figure class="mt-16">
                   <img
-                    src="./assets/img/hero.png"
+                    src="./assets/img/ngomongo-preview.png"
                     alt="Hero image"
                     class="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
                   />
@@ -389,7 +389,123 @@
             <div class="w-full">
               <div class="scroll-revealed">
                 <h6 class="mb-2 block text-lg font-semibold text-primary">
-                  About Us
+                  About Ngomongo
+                </h6>
+                <h2 class="mb-6">
+                  Built to Connect People and Empower Businesses
+                </h2>
+              </div>
+
+              <div class="tabs scroll-revealed">
+                <nav
+                  class="tabs-nav flex flex-wrap gap-4 my-8"
+                  role="tablist"
+                  aria-label="About us tabs"
+                >
+                  <button
+                    type="button"
+                    class="tabs-link inline-block py-2 px-4 rounded-md text-body-light-12 bg-body-light-12/10 text-inherit font-medium hover:bg-primary hover:text-primary-color focus:bg-primary focus:text-primary-color"
+                    data-web-toggle="tabs"
+                    data-web-target="tabs-panel-profile"
+                    id="tabs-list-profile"
+                    role="tab"
+                    aria-controls="tabs-panel-profile"
+                  >
+                    Our Profile
+                  </button>
+
+                  <button
+                    type="button"
+                    class="tabs-link inline-block py-2 px-4 rounded-md text-body-light-12 bg-body-light-12/10 text-inherit font-medium hover:bg-primary hover:text-primary-color focus:bg-primary focus:text-primary-color"
+                    data-web-toggle="tabs"
+                    data-web-target="tabs-panel-vision"
+                    id="tabs-list-vision"
+                    role="tab"
+                    aria-controls="tabs-panel-vision"
+                  >
+                    Our Vision
+                  </button>
+
+                  <button
+                    type="button"
+                    class="tabs-link inline-block py-2 px-4 rounded-md text-body-light-12 bg-body-light-12/10 text-inherit font-medium hover:bg-primary hover:text-primary-color focus:bg-primary focus:text-primary-color"
+                    data-web-toggle="tabs"
+                    data-web-target="tabs-panel-history"
+                    id="tabs-list-history"
+                    role="tab"
+                    aria-controls="tabs-panel-history"
+                  >
+                    Our History
+                  </button>
+                </nav>
+
+                <div
+                  class="tabs-content mt-4"
+                  id="tabs-panel-profile"
+                  tabindex="-1"
+                  role="tabpanel"
+                  aria-labelledby="tabs-list-profile"
+                >
+                  <p>
+                    Ngomongo is a communication platform that offers fast, secure messaging, voice, and video calls. But we go beyond simple chats — we empower users to explore business profiles and products directly within the app.
+                  </p>
+                  <p>
+                    Whether you're chatting with friends or browsing a local store's latest deals, Ngomongo brings everything into one seamless experience.
+                  </p>
+                </div>
+
+                <div
+                  class="tabs-content mt-4 hidden"
+                  id="tabs-panel-vision"
+                  tabindex="-1"
+                  role="tabpanel"
+                  aria-labelledby="tabs-list-vision"
+                >
+                  <p>
+                    Our vision is to become the all-in-one platform where communication meets commerce. We believe that meaningful connection is the foundation of trust—between people and between people and brands.
+                  </p>
+                  <p>
+                    We aim to redefine how people interact with businesses: simple, real-time, and personal.
+                  </p>
+                </div>
+
+                <div
+                  class="tabs-content mt-4 hidden"
+                  id="tabs-panel-history"
+                  tabindex="-1"
+                  role="tabpanel"
+                  aria-labelledby="tabs-list-history"
+                >
+                  <p>
+                    Ngomongo started as a small idea: "What if chatting apps did more than just chat?" From that idea, we began building a platform in 2024 that merges communication with business discovery.
+                  </p>
+                  <p>
+                    After months of development, research, and testing, Ngomongo was launched to make conversations meaningful again—whether between friends or between customer and business.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section id="about" class="section-area">
+        <div class="container">
+          <div class="grid grid-cols-1 gap-14 lg:grid-cols-2">
+            <div class="w-full">
+              <figure class="scroll-revealed max-w-[480px] mx-auto">
+                <img
+                  src="./assets/img/about-img.jpg"
+                  alt="About image"
+                  class="rounded-xl"
+                />
+              </figure>
+            </div>
+
+            <div class="w-full">
+              <div class="scroll-revealed">
+                <h6 class="mb-2 block text-lg font-semibold text-primary">
+                  About Ngomongo
                 </h6>
                 <h2 class="mb-6">
                   Our team comes with the experience and knowledge
@@ -505,10 +621,116 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Services section -->
+      <!-- Services section -->
       <section id="services" class="section-area">
+        <div class="container">
+          <div class="scroll-revealed text-center max-w-[550px] mx-auto mb-12">
+            <h6 class="mb-2 block text-lg font-semibold text-primary">Feature</h6>
+            <h2 class="mb-6">What Ngomongo Offers</h2>
+            <p>
+              Ngomongo combines secure communication and powerful business tools to help your company stay connected, branded, and efficient.
+            </p>
+          </div>
+
+          <div class="row">
+            <!-- Feature 1 -->
+            <div class="scroll-revealed col-12 sm:col-6 lg:col-4">
+              <div class="group hover:-translate-y-1">
+                <div class="w-[70px] h-[70px] rounded-2xl mb-6 flex items-center justify-center text-[37px]/none bg-primary text-primary-color">
+                  <i class="lni lni-lock"></i>
+                </div>
+                <div class="w-full">
+                  <h4 class="text-[1.25rem]/tight font-semibold mb-5">Complete Privacy</h4>
+                  <p>
+                    Our advanced end-to-end encryption technology guarantees that your conversations remain entirely confidential and protected from any unauthorized access or surveillance.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="scroll-revealed col-12 sm:col-6 lg:col-4">
+              <div class="group hover:-translate-y-1">
+                <div class="w-[70px] h-[70px] rounded-2xl mb-6 flex items-center justify-center text-[37px]/none bg-primary text-primary-color">
+                  <i class="lni lni-world"></i>
+                </div>
+                <div class="w-full">
+                  <h4 class="text-[1.25rem]/tight font-semibold mb-5">Open Federation</h4>
+                  <p>
+                    Connect freely with users on any Matrix-compatible server around the globe, maintaining your digital independence and avoiding the constraints of closed ecosystems.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="scroll-revealed col-12 sm:col-6 lg:col-4">
+              <div class="group hover:-translate-y-1">
+                <div class="w-[70px] h-[70px] rounded-2xl mb-6 flex items-center justify-center text-[37px]/none bg-primary text-primary-color">
+                  <i class="lni lni-video"></i>
+                </div>
+                <div class="w-full">
+                  <h4 class="text-[1.25rem]/tight font-semibold mb-5">HD Voice & Video</h4>
+                  <p>
+                    Experience uncompromised communication quality with our crystal-clear voice and high-definition video calls, whether connecting one-on-one or in dynamic group conversations.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Feature 4 -->
+            <div class="scroll-revealed col-12 sm:col-6 lg:col-4">
+              <div class="group hover:-translate-y-1">
+                <div class="w-[70px] h-[70px] rounded-2xl mb-6 flex items-center justify-center text-[37px]/none bg-primary text-primary-color">
+                  <i class="lni lni-bullhorn"></i>
+                </div>
+                <div class="w-full">
+                  <h4 class="text-[1.25rem]/tight font-semibold mb-5">In-Chat Product Promotion</h4>
+                  <p>
+                    Easily share your company's product catalog and promotional content directly within conversations—perfect for sales, marketing, and service integration.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Feature 5 -->
+            <div class="scroll-revealed col-12 sm:col-6 lg:col-4">
+              <div class="group hover:-translate-y-1">
+                <div class="w-[70px] h-[70px] rounded-2xl mb-6 flex items-center justify-center text-[37px]/none bg-primary text-primary-color">
+                  <i class="lni lni-users"></i>
+                </div>
+                <div class="w-full">
+                  <h4 class="text-[1.25rem]/tight font-semibold mb-5">Business Account with Branding</h4>
+                  <p>
+                    Let your brand shine with company-level accounts, personalized logos, and identity shown throughout the app interface.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Feature 6 -->
+            <div class="scroll-revealed col-12 sm:col-6 lg:col-4">
+              <div class="group hover:-translate-y-1">
+                <div class="w-[70px] h-[70px] rounded-2xl mb-6 flex items-center justify-center text-[37px]/none bg-primary text-primary-color">
+                  <i class="lni lni-customer"></i>
+                </div>
+                <div class="w-full">
+                  <h4 class="text-[1.25rem]/tight font-semibold mb-5">Client Contact Hub</h4>
+                  <p>
+                    Manage and organize your customer or client communication in one central space—support, marketing, and service made simple.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- <section id="services" class="section-area">
         <div class="container">
           <div class="scroll-revealed text-center max-w-[550px] mx-auto mb-12">
             <h6 class="mb-2 block text-lg font-semibold text-primary">
@@ -643,10 +865,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Intro video section -->
-      <section id="intro" class="section-area">
+      <!-- <section id="intro" class="section-area">
         <div class="container">
           <div class="scroll-revealed text-center max-w-[550px] mx-auto mb-12">
             <h6 class="mb-2 block text-lg font-semibold text-primary">
@@ -673,10 +895,10 @@
             </a>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Portfolio section -->
-      <section id="portfolio" class="section-area">
+      <!-- <section id="portfolio" class="section-area">
         <div class="container">
           <div class="scroll-revealed text-center max-w-[550px] mx-auto mb-12">
             <h6 class="mb-2 block text-lg font-semibold text-primary">
@@ -1026,10 +1248,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Pricing section -->
-      <section id="pricing" class="section-area">
+      <!-- <section id="pricing" class="section-area">
         <div class="container">
           <div class="scroll-revealed text-center max-w-[550px] mx-auto mb-12">
             <h6 class="mb-2 block text-lg font-semibold text-primary">
@@ -1266,7 +1488,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Call action section -->
       <section
@@ -1276,26 +1498,99 @@
         <div class="container">
           <div class="scroll-revealed text-center max-w-[550px] mx-auto">
             <h2 class="mb-8 text-inherit">
-              We love to make perfect solutions for your business
+              Start Your Private Conversations Now with Ngomongo
             </h2>
             <p>
-              Why I say old chap that is, spiffing off his nut cor blimey
-              guvnords geeza bloke knees up bobby, sloshed arse William cack
-              Richard. Bloke fanny around chesed of bum bag old lost the pilot
-              say there spiffing off his nut.
+              Stay connected with full privacy and freedom. Download Ngomongo today 
+              and join a secure world of messaging—no ads, no tracking, just you and 
+              your conversations.
             </p>
             <a
-              href="javascript:void(0)"
-              class="inline-block px-5 py-3 rounded-md mt-11 bg-green-400 text-white hover:bg-green-500 hover:text-white focus:bg-green-500 focus:text-white"
-              role="button"
-              >Get Started Now</a
+            href="https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.paisa.user"
+            class="inline-block px-5 py-3 rounded-md mt-11 bg-green-400 text-white hover:bg-green-500 hover:text-white focus:bg-green-500 focus:text-white"
+            role="button"
+            >Get Started Now</a
             >
           </div>
         </div>
       </section>
-
+      
       <!-- Team section -->
       <section id="team" class="section-area">
+        <div class="container">
+          <div class="scroll-revealed text-center max-w-[550px] mx-auto mb-12">
+            <h6 class="mb-2 block text-lg font-semibold text-primary">Get Started</h6>
+            <h2 class="mb-6">How Ngomongo Works</h2>
+            <p>
+              Start connecting in seconds. Download, register, and begin chatting with total privacy.
+            </p>
+          </div>
+
+          <div class="row">
+            <!-- Step 1 -->
+            <div class="scroll-revealed col-12 sm:col-6 md:col-4 lg:col-3">
+              <figure
+                class="group rounded-xl bg-body-light-1 dark:bg-body-dark-12/10 px-5 pb-10 pt-12 shadow-card-2 hover:shadow-lg hover:-translate-y-1 h-full"
+              >
+                <!-- <div class="relative z-10 mx-auto mb-5 h-[100px] w-[100px] flex items-center justify-center rounded-full bg-white shadow-md"> -->
+                <div class="relative z-10 mx-auto mb-5 h-[100px] w-[100px] flex items-center justify-center">
+                  <i data-lucide="download" class="w-10 h-10 text-primary"></i>
+                </div>
+                <figcaption class="text-center block">
+                  <h4 class="mb-1 text-lg font-semibold text-body-light-12 dark:text-body-dark-12">
+                    Download
+                  </h4>
+                  <p class="text-sm text-body-light-11 dark:text-body-dark-11">
+                    Get Ngomongo on your phone from the Play Store or App Store. Quick and free installation.
+                  </p>
+                </figcaption>  
+
+              </figure>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="scroll-revealed col-12 sm:col-6 md:col-4 lg:col-3">
+              <figure
+                class="group rounded-xl bg-body-light-1 dark:bg-body-dark-12/10 px-5 pb-10 pt-12 shadow-card-2 hover:shadow-lg hover:-translate-y-1 h-full"
+              >
+                <div class="relative z-10 mx-auto mb-5 h-[100px] w-[100px] flex items-center justify-center">
+                  <i data-lucide="pencil-line" class="w-10 h-10 text-primary"></i>
+                </div>
+                <figcaption class="text-center block">
+                  <h4 class="mb-1 text-lg font-semibold text-body-light-12 dark:text-body-dark-12">
+                    Register
+                  </h4>
+                  <p class="text-sm text-body-light-11 dark:text-body-dark-11">
+                    Create a secure account and verify your profile in just a few simple steps.
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="scroll-revealed col-12 sm:col-6 md:col-4 lg:col-3">
+              <figure
+                class="group rounded-xl bg-body-light-1 dark:bg-body-dark-12/10 px-5 pb-10 pt-12 shadow-card-2 hover:shadow-lg hover:-translate-y-1 h-full"
+              >
+                <div class="relative z-10 mx-auto mb-5 h-[100px] w-[100px] flex items-center justify-center">
+                  <i data-lucide="message-circle" class="w-10 h-10 text-primary"></i>
+                </div>
+                <figcaption class="text-center block">
+                  <h4 class="mb-1 text-lg font-semibold text-body-light-12 dark:text-body-dark-12">
+                    Chat & Call
+                  </h4>
+                  <p class="text-sm text-body-light-11 dark:text-body-dark-11">
+                    Enjoy encrypted chats and video calls with your team or community instantly.
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>  
+
+
+      <!-- <section id="team" class="section-area">
         <div class="container">
           <div class="scroll-revealed text-center max-w-[550px] mx-auto mb-12">
             <h6 class="mb-2 block text-lg font-semibold text-primary">Team</h6>
@@ -1464,7 +1759,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Testimonials section -->
       <section id="testimonials" class="section-area">
@@ -3163,6 +3458,9 @@
     <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
+    <script>
+      lucide.createIcons();
+    </script>
     <script src="./assets/js/main.js"></script>
     <script>
       // Scroll Reveal
